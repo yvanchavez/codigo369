@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+body    {  
+        font-family: 'Roboto', sans-serif; 
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;}
+.padre{
+    background-color: red;
+    /* width: 600px; */
+    height: 100vh;
+    /* margin: 50px; */
+    /* padding-top: 50px; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.hijo1{
+    background-color: blue;
+    width: 100px;   
+    height: 100px;   
+}
+.hijo2{
+    background-color: yellow;
+    width: 100px;   
+    height: 100px;   
+}
+.hijo3{
+    background-color: green;
+    width: 100px;   
+    height: 100px; 
+    margin: 50px;  
+}
